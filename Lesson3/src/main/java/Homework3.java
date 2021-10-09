@@ -12,7 +12,8 @@ public class Homework3 {
         //foobar(10);
         //foobar(15);
         // printMatrix();
-        printPrimeNumbers();
+        // printPrimeNumbers();
+        countDevs(103);
 
     }
 
@@ -115,6 +116,7 @@ public class Homework3 {
                 System.out.println();
             }
         }
+
     }
 
     public static void printPrimeNumbers() {
@@ -133,6 +135,19 @@ public class Homework3 {
                 System.out.println(i);
             }
         }
+    }
+
+    public static void countDevs(int count) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите число number1 ");
+        int number = scanner.nextInt();
+        // int number = number1;
+        int k = 1;
+        if (number = k | (number = k + 20)) ;
+        {
+            System.out.println("_ @param number1 _ программист");
+        }
+
     }
 }
 
